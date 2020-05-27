@@ -11,3 +11,5 @@ Subsequently, a Canny filter is performed to obtain the edges of the two images,
 Once we have located the edges of our images, we will try to find the pixels that are the same in the two images. For this, the function of opencv matchTemplate is used. We will need to create a template for each pixel in order to use this function.
 
 With the matches found we can easily obtain the coordinates of each match in the left image and in the right image. With these coordinates we can use the function of opencv triangulatePoints, which we pass the points of the two images that we want to transform to 3d coordinates and the projection matrices of each image returns the coordinates in a 4d vector. To obtain a vector with 3 coordinates, what has been done is divide the first 3 coordinates of our vector by the last coordinate.
+
+[![](https://i.etsystatic.com/10919371/r/il/155a7d/1563938723/il_570xN.1563938723_1rmr.jpg)](https://youtu.be/BxPfsC8gqQI)

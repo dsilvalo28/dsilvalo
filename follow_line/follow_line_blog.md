@@ -12,11 +12,13 @@ First of all, we have to locate the red line with our camera. For this, a color 
 
 The first thing is to know at what height we want to locate the red line, it does not have to be very close to the car in order to anticipate changes in the circuit, not too far away since we could lose the reference of the line in the circuit. For this, a height of 246 pixels has been chosen. Knowing the height at which we want to locate the line, we now have to find the center of that line. For this, the average occupied by the white pixels in our image is calculated. With the calculated center we subtract it from the center of our image and thus obtain the value of the error.
 
-With the calculated error it is time to calculate the values ​​of kp and kd. These values ​​are calculated experimentally, trial and error. The values ​​will be modified until the car is able to be as above the red line as possible at all times.
+With the calculated error it is time to calculate the values of kp and kd. These values are calculated experimentally, trial and error. The values will be modified until the car is able to be as above the red line as possible at all times.
 
-Thanks to this, the objective of turning the circuit was achieved, in order to try to improve speed and precision, the following improvements were made.
+Here you can see a demostration.
 
 [![](https://i.etsystatic.com/10919371/r/il/155a7d/1563938723/il_570xN.1563938723_1rmr.jpg)](https://youtu.be/5nlB7VrBZ8U)
+
+Thanks to this, the objective of turning the circuit was achieved, in order to try to improve speed and precision, the following improvements were made.
 
 I try to implement a controller that differentiates between curves and straights, to be able to go faster in curves. All the tests carried out were not satisfactory since in many of them the car ended up derailing and in others the time was not improved. For all this, this idea was rejected.
 

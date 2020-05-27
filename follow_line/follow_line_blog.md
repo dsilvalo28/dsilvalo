@@ -16,7 +16,7 @@ With the calculated error it is time to calculate the values ​​of kp and kd.
 
 Thanks to this, the objective of turning the circuit was achieved, in order to try to improve speed and precision, the following improvements were made.
 
-[![](https://img.youtu.be/5nlB7VrBZ8U)](https://youtu.be/5nlB7VrBZ8U)
+[![](https://i.etsystatic.com/10919371/r/il/155a7d/1563938723/il_570xN.1563938723_1rmr.jpg)](https://youtu.be/5nlB7VrBZ8U)
 
 I try to implement a controller that differentiates between curves and straights, to be able to go faster in curves. All the tests carried out were not satisfactory since in many of them the car ended up derailing and in others the time was not improved. For all this, this idea was rejected.
 

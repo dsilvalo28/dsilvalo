@@ -16,4 +16,4 @@ With the matches found we can easily obtain the coordinates of each match in the
 
 Finally, we will need to find the color of the point we want to find. We will use the pixel coordinates with value 1 in the canny image and look for its value in the original image on the left. It is necessary to normalize the color between 0-13
 
-[![](https://i.etsystatic.com/10919371/r/il/155a7d/1563938723/il_570xN.1563938723_1rmr.jpg)](https://youtu.be/BxPfsC8gqQI)
+![Resultado](3d_robotica.png)
